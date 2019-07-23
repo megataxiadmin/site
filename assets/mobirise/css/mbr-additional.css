@@ -743,8 +743,6 @@ a:hover {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   line-height: 1.43;
-  min-height: 3.5em;
-  padding: 1.07em .5em;
 }
 .form-control > .mbr-iconfont {
   font-size: 1.6rem;
@@ -849,18 +847,11 @@ pre {
 .btn-social + .btn {
   margin-left: .1rem;
 }
-.input-wrap input {
-  border-radius: 0rem;
+.form-control {
   width: 100%;
   padding: .5rem 1rem;
-  margin-bottom: 1rem;
-  border: 1px solid #efefef;
-}
-.input-main textarea {
   background-color: #ffffff;
-  padding: .5rem 1rem;
   border: 1px solid #efefef;
-  border-radius: 0;
 }
 .carousel-item.active,
 .carousel-item-next,
@@ -891,6 +882,40 @@ body {
 }
 .dropup .dropdown-toggle::after {
   display: none;
+}
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+  background-color: #ff4f7b;
+  color: #ffffff;
+}
+.jq-number__spin {
+  background-color: #ffffff;
+}
+.jq-selectbox .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:after,
+.jq-number__spin.plus:after {
+  transition: 0.4s;
+  border-top-color: currentColor;
+  border-bottom-color: currentColor;
+}
+.jq-selectbox:hover .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:hover:after,
+.jq-number__spin.plus:hover:after {
+  border-top-color: #ff4f7b;
+  border-bottom-color: #ff4f7b;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
+  color: #ffffff !important;
+  background-color: #ff4f7b !important;
+  box-shadow: none!important;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
+  color: #000000 !important;
+  background: #fdcc52 !important;
+  box-shadow: none !important;
 }
 .cid-rdaOWnRmdV .dropdown-item:before {
   font-family: MobiriseIcons !important;
