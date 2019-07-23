@@ -596,15 +596,9 @@ a.text-black:focus {
 .alert-danger {
   background-color: #444444;
 }
-.mbr-section-btn a.btn {
-  border-radius: 100px;
-}
 .mbr-section-btn a.btn:hover,
 .mbr-section-btn a.btn:focus {
-  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2) !important;
-}
-.mbr-gallery-filter li a {
-  border-radius: 100px !important;
+  box-shadow: none !important;
 }
 .mbr-gallery-filter li.active .btn {
   background-color: #ff4f7b;
@@ -613,9 +607,6 @@ a.text-black:focus {
 }
 .mbr-gallery-filter li.active .btn:focus {
   box-shadow: none;
-}
-.nav-tabs .nav-link {
-  border-radius: 100px !important;
 }
 .btn-form {
   border-radius: .25rem;
@@ -800,18 +791,6 @@ pre {
 .mbr-form .btn {
   margin: .4rem 0;
 }
-.mbr-form .input-group-btn a.btn {
-  border-radius: 100px !important;
-}
-.mbr-form .input-group-btn a.btn:hover {
-  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
-}
-.mbr-form .input-group-btn button[type="submit"] {
-  border-radius: 100px !important;
-}
-.mbr-form .input-group-btn button[type="submit"]:hover {
-  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
-}
 @media (max-width: 767px) {
   .btn {
     font-size: .75rem !important;
@@ -869,16 +848,6 @@ html,
 body {
   height: auto;
   min-height: 100vh;
-}
-@media (min-width: 768px) {
-  .rounded-left {
-    border-top-left-radius: 100px !important;
-    border-bottom-left-radius: 100px !important;
-  }
-  .rounded-left {
-    border-top-left-radius: 100px !important;
-    border-bottom-left-radius: 100px !important;
-  }
 }
 .dropup .dropdown-toggle::after {
   display: none;
@@ -1473,6 +1442,9 @@ body {
 .cid-rx1llzLgru .mbr-overlay {
   background-color: #ffffff;
   opacity: 0.4;
+}
+.cid-rx1llzLgru H4 {
+  text-align: center;
 }
 .cid-rdb2ooiPwh {
   padding-top: 120px;
